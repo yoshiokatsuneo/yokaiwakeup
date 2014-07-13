@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB54031419721D8400C7319D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54031319721D8400C7319D /* Foundation.framework */; };
+		DB54031619721D8400C7319D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54031519721D8400C7319D /* CoreGraphics.framework */; };
+		DB54031819721D8400C7319D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54031719721D8400C7319D /* UIKit.framework */; };
+		DB54031E19721D8400C7319D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB54031C19721D8400C7319D /* InfoPlist.strings */; };
+		DB54032019721D8400C7319D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB54031F19721D8400C7319D /* main.m */; };
+		DB54032419721D8400C7319D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB54032319721D8400C7319D /* AppDelegate.m */; };
+		DB54032719721D8400C7319D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB54032519721D8400C7319D /* Main_iPhone.storyboard */; };
+		DB54032A19721D8400C7319D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB54032819721D8400C7319D /* Main_iPad.storyboard */; };
+		DB54032D19721D8400C7319D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB54032C19721D8400C7319D /* ViewController.m */; };
+		DB54032F19721D8500C7319D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB54032E19721D8500C7319D /* Images.xcassets */; };
+		DB54033619721D8500C7319D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54033519721D8500C7319D /* XCTest.framework */; };
+		DB54033719721D8500C7319D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54031319721D8400C7319D /* Foundation.framework */; };
+		DB54033819721D8500C7319D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54031719721D8400C7319D /* UIKit.framework */; };
+		DB54034019721D8500C7319D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB54033E19721D8500C7319D /* InfoPlist.strings */; };
+		DB54034219721D8500C7319D /* yokaiwakeupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB54034119721D8500C7319D /* yokaiwakeupTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB54033919721D8500C7319D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB54030819721D8400C7319D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB54030F19721D8400C7319D;
+			remoteInfo = yokaiwakeup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB54031019721D8400C7319D /* yokaiwakeup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yokaiwakeup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB54031319721D8400C7319D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB54031519721D8400C7319D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB54031719721D8400C7319D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB54031B19721D8400C7319D /* yokaiwakeup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yokaiwakeup-Info.plist"; sourceTree = "<group>"; };
+		DB54031D19721D8400C7319D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB54031F19721D8400C7319D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB54032119721D8400C7319D /* yokaiwakeup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yokaiwakeup-Prefix.pch"; sourceTree = "<group>"; };
+		DB54032219721D8400C7319D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB54032319721D8400C7319D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB54032619721D8400C7319D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DB54032919721D8400C7319D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DB54032B19721D8400C7319D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB54032C19721D8400C7319D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB54032E19721D8500C7319D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB54033419721D8500C7319D /* yokaiwakeupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yokaiwakeupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB54033519721D8500C7319D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB54033D19721D8500C7319D /* yokaiwakeupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yokaiwakeupTests-Info.plist"; sourceTree = "<group>"; };
+		DB54033F19721D8500C7319D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB54034119721D8500C7319D /* yokaiwakeupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yokaiwakeupTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB54030D19721D8400C7319D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB54031619721D8400C7319D /* CoreGraphics.framework in Frameworks */,
+				DB54031819721D8400C7319D /* UIKit.framework in Frameworks */,
+				DB54031419721D8400C7319D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB54033119721D8500C7319D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB54033619721D8500C7319D /* XCTest.framework in Frameworks */,
+				DB54033819721D8500C7319D /* UIKit.framework in Frameworks */,
+				DB54033719721D8500C7319D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB54030719721D8400C7319D = {
+			isa = PBXGroup;
+			children = (
+				DB54031919721D8400C7319D /* yokaiwakeup */,
+				DB54033B19721D8500C7319D /* yokaiwakeupTests */,
+				DB54031219721D8400C7319D /* Frameworks */,
+				DB54031119721D8400C7319D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB54031119721D8400C7319D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB54031019721D8400C7319D /* yokaiwakeup.app */,
+				DB54033419721D8500C7319D /* yokaiwakeupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB54031219721D8400C7319D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB54031319721D8400C7319D /* Foundation.framework */,
+				DB54031519721D8400C7319D /* CoreGraphics.framework */,
+				DB54031719721D8400C7319D /* UIKit.framework */,
+				DB54033519721D8500C7319D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB54031919721D8400C7319D /* yokaiwakeup */ = {
+			isa = PBXGroup;
+			children = (
+				DB54032219721D8400C7319D /* AppDelegate.h */,
+				DB54032319721D8400C7319D /* AppDelegate.m */,
+				DB54032519721D8400C7319D /* Main_iPhone.storyboard */,
+				DB54032819721D8400C7319D /* Main_iPad.storyboard */,
+				DB54032B19721D8400C7319D /* ViewController.h */,
+				DB54032C19721D8400C7319D /* ViewController.m */,
+				DB54032E19721D8500C7319D /* Images.xcassets */,
+				DB54031A19721D8400C7319D /* Supporting Files */,
+			);
+			path = yokaiwakeup;
+			sourceTree = "<group>";
+		};
+		DB54031A19721D8400C7319D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB54031B19721D8400C7319D /* yokaiwakeup-Info.plist */,
+				DB54031C19721D8400C7319D /* InfoPlist.strings */,
+				DB54031F19721D8400C7319D /* main.m */,
+				DB54032119721D8400C7319D /* yokaiwakeup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB54033B19721D8500C7319D /* yokaiwakeupTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB54034119721D8500C7319D /* yokaiwakeupTests.m */,
+				DB54033C19721D8500C7319D /* Supporting Files */,
+			);
+			path = yokaiwakeupTests;
+			sourceTree = "<group>";
+		};
+		DB54033C19721D8500C7319D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB54033D19721D8500C7319D /* yokaiwakeupTests-Info.plist */,
+				DB54033E19721D8500C7319D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB54030F19721D8400C7319D /* yokaiwakeup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB54034519721D8500C7319D /* Build configuration list for PBXNativeTarget "yokaiwakeup" */;
+			buildPhases = (
+				DB54030C19721D8400C7319D /* Sources */,
+				DB54030D19721D8400C7319D /* Frameworks */,
+				DB54030E19721D8400C7319D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yokaiwakeup;
+			productName = yokaiwakeup;
+			productReference = DB54031019721D8400C7319D /* yokaiwakeup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB54033319721D8500C7319D /* yokaiwakeupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB54034819721D8500C7319D /* Build configuration list for PBXNativeTarget "yokaiwakeupTests" */;
+			buildPhases = (
+				DB54033019721D8500C7319D /* Sources */,
+				DB54033119721D8500C7319D /* Frameworks */,
+				DB54033219721D8500C7319D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB54033A19721D8500C7319D /* PBXTargetDependency */,
+			);
+			name = yokaiwakeupTests;
+			productName = yokaiwakeupTests;
+			productReference = DB54033419721D8500C7319D /* yokaiwakeupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB54030819721D8400C7319D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					DB54033319721D8500C7319D = {
+						TestTargetID = DB54030F19721D8400C7319D;
+					};
+				};
+			};
+			buildConfigurationList = DB54030B19721D8400C7319D /* Build configuration list for PBXProject "yokaiwakeup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB54030719721D8400C7319D;
+			productRefGroup = DB54031119721D8400C7319D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB54030F19721D8400C7319D /* yokaiwakeup */,
+				DB54033319721D8500C7319D /* yokaiwakeupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB54030E19721D8400C7319D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB54032A19721D8400C7319D /* Main_iPad.storyboard in Resources */,
+				DB54032F19721D8500C7319D /* Images.xcassets in Resources */,
+				DB54032719721D8400C7319D /* Main_iPhone.storyboard in Resources */,
+				DB54031E19721D8400C7319D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB54033219721D8500C7319D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB54034019721D8500C7319D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB54030C19721D8400C7319D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB54032D19721D8400C7319D /* ViewController.m in Sources */,
+				DB54032419721D8400C7319D /* AppDelegate.m in Sources */,
+				DB54032019721D8400C7319D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB54033019721D8500C7319D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB54034219721D8500C7319D /* yokaiwakeupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB54033A19721D8500C7319D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB54030F19721D8400C7319D /* yokaiwakeup */;
+			targetProxy = DB54033919721D8500C7319D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB54031C19721D8400C7319D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB54031D19721D8400C7319D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB54032519721D8400C7319D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB54032619721D8400C7319D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DB54032819721D8400C7319D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB54032919721D8400C7319D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DB54033E19721D8500C7319D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB54033F19721D8500C7319D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB54034319721D8500C7319D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB54034419721D8500C7319D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB54034619721D8500C7319D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yokaiwakeup/yokaiwakeup-Prefix.pch";
+				INFOPLIST_FILE = "yokaiwakeup/yokaiwakeup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB54034719721D8500C7319D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yokaiwakeup/yokaiwakeup-Prefix.pch";
+				INFOPLIST_FILE = "yokaiwakeup/yokaiwakeup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB54034919721D8500C7319D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/yokaiwakeup.app/yokaiwakeup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yokaiwakeup/yokaiwakeup-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "yokaiwakeupTests/yokaiwakeupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB54034A19721D8500C7319D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/yokaiwakeup.app/yokaiwakeup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yokaiwakeup/yokaiwakeup-Prefix.pch";
+				INFOPLIST_FILE = "yokaiwakeupTests/yokaiwakeupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB54030B19721D8400C7319D /* Build configuration list for PBXProject "yokaiwakeup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB54034319721D8500C7319D /* Debug */,
+				DB54034419721D8500C7319D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB54034519721D8500C7319D /* Build configuration list for PBXNativeTarget "yokaiwakeup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB54034619721D8500C7319D /* Debug */,
+				DB54034719721D8500C7319D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB54034819721D8500C7319D /* Build configuration list for PBXNativeTarget "yokaiwakeupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB54034919721D8500C7319D /* Debug */,
+				DB54034A19721D8500C7319D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB54030819721D8400C7319D /* Project object */;
+}
